@@ -14,6 +14,7 @@ This project aims to filter out redundant frames from a collection of images bas
 
 ```bash
 git clone [this repo]
+cd kopernikus_interview
 pip install -r requirements.txt
 python imaging_interview.py --path /path/to/image/folder --store_non_ess_frames
 # Replace /path/to/image/folder with the path to the folder containing the image files. Use the --store_non_ess_frames flag to store non-essential frames.
